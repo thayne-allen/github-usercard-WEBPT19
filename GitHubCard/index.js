@@ -113,7 +113,7 @@ const cardsAttach = document.querySelector('.cards');
 
   }
 
-  const followersArray = ['tetondan', 'dustinmyers', 'justsml', 'luishrd', 'bigknell'];
+  const followersArray = ['ubaid-parvaiz', 'ionicabizau', 'jessbonanno', 'dazmen', 'tetondan', 'dustinmyers', 'justsml', 'luishrd', 'bigknell'];
 
   followersArray.forEach(inst => {
     axios.get(`https://api.github.com/users/${inst}`)
